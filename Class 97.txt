@@ -1,0 +1,34 @@
+Variable/Input/Print:
+pocketMoney = input("Enter the pocket money you get: ") 
+print(pocketMoney)  
+
+List:
+
+myFriendList = ["Raghu", "Radha", "Ghanshyam"] 
+myFriendList[2] 
+
+
+Conditional:
+
+age = int(input("Enteryour age: ")) 
+if (age>18):   
+	print("You are an adult.") 
+elif (age>12):   
+	print("You are a teenager.") 
+else:  
+ 	print("You are still a kid.") 
+	 
+Loops:
+For :-
+
+myFriendList = ["Ram", "Radha", "Nivedita"] 
+for friend in myFriendList:        
+	print(friend) 
+
+While :-
+
+count = 5 
+while (count>=0):   
+	print(count)   
+	count = count - 1 
+
